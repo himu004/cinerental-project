@@ -60,14 +60,15 @@ const Header = () => {
                 height="24"
                 alt=""
               />
-            </a>
-            {
+              {
                 cartData.length > 0 && (
-                    <span className='bg-red-400 text-white text-sm p-1 rounded-full'>
+                    <span className='rounded-full absolute top-[-12px] left-[28px] bg-[#12CF6F] text-white text-center p-[2px] w-[30px] h-[30px]'>
                         {cartData.length}
                     </span>
                 )
               }
+            </a>
+            
           </li>
         </ul>
       </nav>
